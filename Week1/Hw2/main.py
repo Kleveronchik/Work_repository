@@ -9,7 +9,6 @@ class Cat:
         self.alive = True
         self.day_h = 0
         self.day_e = 0
-
     def meow(self):
         print("Meow!")
         self.Happiness += 1
@@ -71,7 +70,6 @@ class Cat:
             self.day_e = self.Energy
         print(f"Happiness got today: {self.day_h}")
         print(f"Energy earned today: {self.day_e}")
-
 fluffy = Cat("Fluffy", 0, 0)
 for day in range(31):
     if fluffy.alive == False:

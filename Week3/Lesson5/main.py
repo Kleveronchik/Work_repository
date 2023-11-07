@@ -1,25 +1,24 @@
 import requests
 #help(requests)
 '''
+#1
 r = requests.get('https://www.python.org')
 print(r.status_code)
 print(r.content)
-'''
-'''
+#2
 payload = dict(key1="group", key2="S2813")
 r = requests.post("https://httpbin.org/post", data=payload)
 print(r.text)
-'''
-#print(requests.__name__)
-#print(type(requests.Response))
-#print(dir(requests.Response))
-#help(str)
-'''
+#3
+print(requests.__name__)
+print(type(requests.Response))
+print(dir(requests.Response))
+help(str)
+#4
 name = 'Andrii'
 print(hasattr(name, 'reverse'))
 print(hasattr(name, 'index'))
 print(getattr(name, 'startswith1', "object has no attribute 'startswith1'"))
-
 def get_full_name():
     pass
 print(callable(name))
