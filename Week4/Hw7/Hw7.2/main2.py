@@ -1,5 +1,4 @@
 from decorator import Checker
-
 try:
     checker = Checker()
     digit1 = int(input("Enter digit1: "))
