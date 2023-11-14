@@ -1,7 +1,7 @@
 from logging import *
 from logger import Logger
-'''
 from Week4.Lesson7.decorator import Checker
+'''
 basicConfig(level=CRITICAL,#DEBUG
             filename='loggingFile.log',
             filemode='a',#'w'
